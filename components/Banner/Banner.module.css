@@ -1,0 +1,9 @@
+.d-flex{
+    display: flex;
+    justify-content: center;
+    margin: 70px 0;
+}
+
+.logo{
+    margin-right: 30px;
+}

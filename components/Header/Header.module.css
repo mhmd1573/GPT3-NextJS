@@ -1,0 +1,44 @@
+.my-navbar{
+    background-color: transparent !important;
+    padding-top: 30px;
+}
+
+
+.d-flex {
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid white; */
+    margin: 40px auto;
+    display: flex;
+}
+
+.child1{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid white; */
+    padding-top: 30px;
+}
+
+.child1 h1{
+    font-size: 50px;
+    font-weight: 700;
+    background: var(--gradient-text); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+
+.child1 p{
+
+    font-weight: 400;
+    color: var(--color-text);
+    margin: 40px 0;
+}
+
+.child2{
+    background-image: url(../../public/assets/images/ai.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 100%;
+
+}

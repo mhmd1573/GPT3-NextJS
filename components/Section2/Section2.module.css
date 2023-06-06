@@ -1,0 +1,60 @@
+.container-section{
+    width: 90%;
+    height: auto;
+    margin:100px auto;
+    
+
+}
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.child1{
+    width: 50%;
+
+}
+
+.child1 h3{
+    font-weight: bold;
+    background: var(--gradient-text); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+
+.child1 h6{
+    padding: 35px 0px;
+    color: #FF8A71;
+}
+
+
+
+.child2{
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+   
+  }
+  
+  .grid-item  {
+    padding: 15px;
+    color: var(--color-text);
+    font-size: 14px;
+  }
+  
+  #hi{
+    color: white;
+    font-size: 17px;
+    padding-top: 25px;
+    font-weight: 500;
+    width: 70%;
+  }
+  
